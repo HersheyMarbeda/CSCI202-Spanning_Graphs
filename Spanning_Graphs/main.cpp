@@ -179,7 +179,7 @@ int main()
     
     Graph g(V);
     
-    cout << "Enter the number of Edges: ";
+    cout << "\nEnter the number of Edges: ";
     cin >> E;
     
     // Input Validation
@@ -191,7 +191,7 @@ int main()
         cin >> E;
     }
     
-    cout << "Enter the edges (u v):" << endl;
+    cout << "\nEnter the Edges (u v):" << endl;
     for (int i = 0; i < E; i++)
     {
         int u, v;
@@ -202,7 +202,7 @@ int main()
         {
             cin.clear();
             cin.ignore();
-            cout << "Invalid edge (" << u << " " << v << "). Please enter valid vertices (0 <= u, v < " << V << " and u != v): ";
+            cout << "\nInvalid edge (" << u << " " << v << "). Please enter valid vertices (0 <= u, v < " << V << " and u != v): ";
             cin >> u >> v;
         }
         
