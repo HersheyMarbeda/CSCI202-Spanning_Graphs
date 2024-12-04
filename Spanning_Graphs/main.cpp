@@ -1,14 +1,22 @@
-//
-//  main.cpp
-//  Spanning_Graphs
-//
-//  Created by Hershey Marbeda on 12/4/24.
-//
+/*
+    Program Name: Spanning Graphs
+    
+    Programmer Name: Hershey Marbeda
+    Due Date: 12.9.2024
+ 
+    
+ */
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    
+    
+    
+    cout << endl << endl;
     return 0;
+    
 }
